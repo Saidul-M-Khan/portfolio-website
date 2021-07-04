@@ -43,7 +43,7 @@ section{
 .working-projects{
     display: flex;
     border: 2px;
-    background-image: linear-gradient(#0F2027, #203A43, #2C5364);
+    /* background-image: linear-gradient(#0F2027, #203A43, #2C5364); */
     padding-bottom: 20%;
 
 }
@@ -130,7 +130,7 @@ li {
         color:rgb(0, 247, 255);
   }
   #outer-box{
-    background-image: linear-gradient(#0F2027, #203A43, #2C5364);
+    /* background-image: linear-gradient(#0F2027, #203A43, #2C5364); */
       padding: 2%;
       margin: 0;
   }
