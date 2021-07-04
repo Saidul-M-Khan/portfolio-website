@@ -1,9 +1,11 @@
 body{
     font-family: 'Oswald', sans-serif;
     background-repeat: no-repeat;
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+    color: white;
 }
 .my-name{
-    color: blueviolet;
+    color: rgb(226, 192, 43);
 }
 h1{
     text-transform: uppercase;
@@ -68,6 +70,10 @@ section{
     margin-left: 5%;
     box-shadow: 10px 10px 40px rgb(0, 247, 255);
     background-color: aliceblue;
+    color: navy;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, yellow, lightgreen);
+    border-image-slice: 1;
      
 }
 #creative{
@@ -82,6 +88,10 @@ section{
     margin-left: 5%;
     box-shadow: 10px 10px 40px rgb(0, 247, 255);
     background-color: aliceblue;
+    color: navy;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, purple, tomato);
+    border-image-slice: 1;
 }
 #music{
     
@@ -95,6 +105,10 @@ section{
     margin-left: 5%;
     box-shadow: 10px 10px 40px rgb(0, 247, 255);
     background-color: aliceblue;
+    color: navy;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
 .menu-bar {
         float: right;
@@ -102,6 +116,7 @@ section{
 }
 .option{
         text-decoration: none;
+        color:rgb(0, 247, 255);
         
 }
 li {
@@ -111,9 +126,11 @@ li {
         text-decoration: none;
         color: black;
         font-weight: 700;
+        color:rgb(0, 247, 255);
   }
   #outer-box{
     background-image: linear-gradient(#0F2027, #203A43, #2C5364);
       padding: 2%;
+      margin: 0;
   }
   
